@@ -56,7 +56,7 @@ jobs.forEach((x, index)=>{
   x.innerHTML = find.jobs[index];
 })
 // 결과에 따른 lectureImg 연결
-const lectImg = find.querySelector('.lecture img');
+const lectImg = document.querySelector('.lecture img');
 lectImg.src=find.lectureImg;
 
 // 결과에 따른 lectureUrl 연결
